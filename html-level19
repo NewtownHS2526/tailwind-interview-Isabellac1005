@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 19: @apply with States</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+
+        .btn-interactive {
+            @apply bg-blue-500 text-white px-6 py-3 rounded-lg;
+            @apply hover:bg-blue-600 focus:ring-2 focus:ring-blue-500 focus:outline-none;
+            @apply active:scale-95 transition-all duration-300;
+        }
+
+      
+        .link-hover {
+            @apply text-blue-500 hover:text-blue-700 underline;
+        }
+
+        .input-focus {
+            @apply border-2 border-gray-300 rounded-lg px-4 py-2 w-full;
+            @apply focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200;
+        }
+    </style>
+</head>
+<body class="p-8 bg-gray-100">
+    <div class="space-y-6 max-w-md mx-auto">
+        
+        <button class="btn-interactive">
+            Interactive Button
+        </button>
+        
+        <a href="#" class="link-hover">
+            Hoverable Link
+        </a>
+        
+        <input type="text" placeholder="Focus me" class="input-focus">
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 19: @apply with States</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+
+        .btn-interactive {
+            @apply bg-blue-500 text-white px-6 py-3 rounded-lg;
+            @apply hover:bg-blue-600 focus:ring-2 focus:ring-blue-500 focus:outline-none;
+            @apply active:scale-95 transition-all duration-300;
+        }
+
+      
+        .link-hover {
+            @apply text-blue-500 hover:text-blue-700 underline;
+        }
+
+        .input-focus {
+            @apply border-2 border-gray-300 rounded-lg px-4 py-2 w-full;
+            @apply focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200;
+        }
+    </style>
+</head>
+<body class="p-8 bg-gray-100">
+    <div class="space-y-6 max-w-md mx-auto">
+        
+        <button class="btn-interactive">
+            Interactive Button
+        </button>
+        
+        <a href="#" class="link-hover">
+            Hoverable Link
+        </a>
+        
+        <input type="text" placeholder="Focus me" class="input-focus">
+    </div>
+</body>
+</html>
+
