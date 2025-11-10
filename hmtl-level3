@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 10: Button Component</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-8 bg-gray-100">
+    <div class="space-y-4">
+        
+        <button class="bg-blue-500 text-white rounded-lg px-6 py-3 hover:bg-blue-600 transition focus:outline-none focus:ring-2 focus:ring-blue-500 inline-flex items-center">
+            Primary Button
+        </button>
+
+        
+        <button class="bg-gray-500 text-white rounded-lg px-6 py-3 hover:bg-gray-600 transition focus:outline-none focus:ring-2 focus:ring-gray-500 inline-flex items-center">
+            Secondary Button
+        </button>
+
+        <button class="bg-red-500 text-white rounded-lg px-6 py-3 hover:bg-red-600 transition focus:outline-none focus:ring-2 focus:ring-red-500 inline-flex items-center">
+            Danger Button
+        </button>
+    </div>
+</body>
+</html>
